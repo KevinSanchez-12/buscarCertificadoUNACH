@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #F3F3F3;
+}
+.sub-body{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 4px 0px rgb(128, 128, 128);
+    max-width: 1500px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    min-height: 100vh;
+    height: auto;
+}
+.title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul, li{
+    list-style: none;
+}
+.logo-menu{
+    margin-left: 20px;
+    width: auto;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+.navbar .container{
+    max-width: 1200px;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar .container .item-a{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar .container .item-a a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+form{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: none;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+form button{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #006600;
+    outline: none;
+    width: 100%;
+    background-color: #006600;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    transition: .3s;
+}
+form button:hover{
+    letter-spacing: 1px;
+    transition: .3s;
+}
+.word-a{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.word-b{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.word-c{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.fail{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #d1d8e0;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.success{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #d1d8e0;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.success span{
+    margin-right: 5px;
+}
+.mensaje{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.table{
+    width: 95%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.table .img{
+    width: 80%;
+    height: auto;
+}
+.table .img img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+.down{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #006600;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.down span{
+    margin-right: 5px;
+    transition: .3s;
+}
+.down:hover span{
+    transform: translateY(3px);
+    transition: .3s;
+}
+iframe{
+    margin: auto;
+    display: flex;
+}
+@media screen and (max-width: 500px){
+    .logo-menu img{
+        width: 230px;
+    }
+    .sub-body{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
